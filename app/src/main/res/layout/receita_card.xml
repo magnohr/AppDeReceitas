@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Foto da Receita -->
+
+    <!-- Nome ou título da receita -->
+    <ImageView
+        android:id="@+id/recipe_image"
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:contentDescription="Imagem da receita"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/recipe_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Nome da Receita"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Ingredientes -->
+    <LinearLayout
+        android:id="@+id/ingredients_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:orientation="vertical">
+
+        <!-- Cada ingrediente será um TextView dentro desse LinearLayout -->
+        <TextView
+            android:id="@+id/ingredient_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Ingrediente 1"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/ingredient_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Ingrediente 2"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/ingredient_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Ingrediente 3"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/ingredient_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Ingrediente 4"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/ingredient_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Ingrediente 5"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/ingredient_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Ingrediente 6"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/btn_delete"
+            android:layout_width="51dp"
+            android:layout_height="23dp"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="8dp"
+            android:src="@android:drawable/ic_delete" />
+
+    </LinearLayout>
+
+    <!-- Link para acessar a receita -->
+    <TextView
+        android:id="@+id/recipe_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="Clique aqui para ver a receita"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="14sp" />
+
+</LinearLayout>
