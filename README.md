@@ -1,8 +1,7 @@
 📱 App de Receitas 🍳
+
+
 ![image](https://github.com/user-attachments/assets/7b511842-3f98-4015-84b5-4816ca7b4cd0)
-![image](https://github.com/user-attachments/assets/0a70bca1-a5e3-459f-90d7-498d3af56f90)
-![image](https://github.com/user-attachments/assets/0b5624bb-b36a-4da0-8751-6b6cff42a951)
-![image](https://github.com/user-attachments/assets/00d5e107-f6ab-4d0d-9844-c48999a0721b)
 
 
 
@@ -10,12 +9,16 @@
 
 Este é um aplicativo de receitas desenvolvido em Java para Android. O app permite que os usuários salvem suas receitas favoritas de maneira simples e rápida. As receitas são armazenadas localmente utilizando Shared Preferences.
 
+![image](https://github.com/user-attachments/assets/0a70bca1-a5e3-459f-90d7-498d3af56f90)
+
 💡 Funcionalidades:
 📜 Cadastro de Receitas: Adicione, edite ou exclua suas receitas preferidas.
 
 🥄 Ingredientes e Instruções: Armazene os ingredientes e o modo de preparo de cada receita.
 
 🗂️ Armazenamento Local: Utiliza Shared Preferences para salvar os dados de forma eficiente.
+
+![image](https://github.com/user-attachments/assets/0b5624bb-b36a-4da0-8751-6b6cff42a951)
 
 ⚙️ Interface Simples e Intuitiva: A interface é fácil de usar, permitindo que você acesse rapidamente suas receitas favoritas.
 
@@ -25,6 +28,8 @@ Java: Linguagem de programação principal para o desenvolvimento.
 Android SDK: Utilizado para criar o aplicativo para dispositivos móveis.
 
 Shared Preferences: Para o armazenamento local dos dados das receitas.
+
+![image](https://github.com/user-attachments/assets/00d5e107-f6ab-4d0d-9844-c48999a0721b)
 
 🚀 Como Usar:
 Abra o app.
